@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa|Kaushan+Script|Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald&display=swap");
 
 :root {
   --primary-color: rgb(255, 92, 92);
@@ -46,7 +46,7 @@ section {
 }
 
 h1 {
-  font-family: Kaushan Script, sans-serif;
+  font-family: "Kaushan Script", sans-serif;
   font-size: 100px;
   margin-bottom: 0;
 }
@@ -85,4 +85,9 @@ a:hover,
 a:focus {
   color: var(--on-background);
   border-bottom: 3px solid;
+}
+
+/* Home Section */
+.title-group {
+  text-align: center;
 }
