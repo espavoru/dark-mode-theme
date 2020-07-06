@@ -91,3 +91,25 @@ a:focus {
 .title-group {
   text-align: center;
 }
+
+/* About Section */
+.about-container {
+  display: flex;
+}
+
+.image-container {
+  width: auto;
+  padding: 10px 20px;
+  margin-right: 25px;
+
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+
+  background-color: var(--background);
+  box-shadow: var(--box-shadow);
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
