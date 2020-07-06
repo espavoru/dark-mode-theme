@@ -183,3 +183,20 @@ p {
   margin: 0;
   line-height: 25px;
 }
+
+/* Contact Section */
+.fab {
+  margin-right: 50px;
+
+  font-size: 100px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.fab:last-child {
+  margin-right: 0;
+}
+
+.fab:hover {
+  color: var(--on-background);
+}
